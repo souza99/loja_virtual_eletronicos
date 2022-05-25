@@ -13,3 +13,6 @@ environment:
 dev_dependencies:
   lints: ^1.0.0
   test: ^1.16.0
+dependencies: 
+  dbcrypt: ^2.0.0
+  jwt_decode: ^0.3.1

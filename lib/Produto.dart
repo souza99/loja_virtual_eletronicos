@@ -1,5 +1,3 @@
-import 'dart:svg';
-
 class Produto {
   late int id;
   late String nome;
