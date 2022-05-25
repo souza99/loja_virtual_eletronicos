@@ -16,9 +16,7 @@ void gerarCupo(Vendedor vendedor, String data, Produto produto) {
   descriptografarCupom(senha, hashed);
 }
 
-
-
-
+//CONSULTAR O BANCO PARA VER SE O RASH ESTA NO BANCO OU NÃO, CASO CONTRARIO RETORNAR CUPOM INVÁLIDO
 void descriptografarCupom(String senha, String hashed) {
   var result = new DBCrypt().checkpw(senha, hashed);
 
